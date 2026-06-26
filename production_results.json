@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-06-26T10:22:10.720049",
+  "start_time": "2026-06-26T10:21:01.015028",
+  "end_time": "2026-06-26T10:22:10.719626",
+  "duration_seconds": 69.704598,
+  "total_urls": 10,
+  "success_count": 9,
+  "failed_count": 1,
+  "success_rate": 90.0,
+  "failed_urls": [
+    "https://www.adobe.com/products/xd.html"
+  ],
+  "results": [
+    {
+      "url": "https://www.adobe.com/products/photoshop.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Official Adobe Photoshop | Free Trial and Online Photo & Design App",
+      "content_length": 20772,
+      "timestamp": "2026-06-26T10:21:08.092157"
+    },
+    {
+      "url": "https://www.adobe.com",
+      "status": "success",
+      "status_code": 200,
+      "title": "Adobe: Creative, marketing and document management solutions",
+      "content_length": 85307,
+      "timestamp": "2026-06-26T10:21:08.104260"
+    },
+    {
+      "url": "https://www.adobe.com/products/illustrator.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Vector Graphics Software | Adobe Illustrator",
+      "content_length": 20020,
+      "timestamp": "2026-06-26T10:21:10.973020"
+    },
+    {
+      "url": "https://www.adobe.com/creativecloud.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Adobe Creative Cloud | Professional Creative Software",
+      "content_length": 19346,
+      "timestamp": "2026-06-26T10:21:12.044144"
+    },
+    {
+      "url": "https://www.adobe.com/products/premiere.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Professional video editing software | Adobe Premiere",
+      "content_length": 20849,
+      "timestamp": "2026-06-26T10:21:14.215198"
+    },
+    {
+      "url": "https://www.adobe.com/products/aftereffects.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Motion graphics software | Adobe After Effects",
+      "content_length": 20142,
+      "timestamp": "2026-06-26T10:21:14.707354"
+    },
+    {
+      "url": "https://www.adobe.com/products/indesign.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Layout design and desktop publishing software | Adobe InDesign",
+      "content_length": 24382,
+      "timestamp": "2026-06-26T10:21:16.968302"
+    },
+    {
+      "url": "https://www.adobe.com/products/acrobat.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Adobe Acrobat | Create and edit PDFs with AI insights",
+      "content_length": 31412,
+      "timestamp": "2026-06-26T10:21:21.583812"
+    },
+    {
+      "url": "https://www.adobe.com/products/dreamweaver.html",
+      "status": "success",
+      "status_code": 200,
+      "title": "Website design software | Adobe Dreamweaver",
+      "content_length": 30520,
+      "timestamp": "2026-06-26T10:21:26.793625"
+    },
+    {
+      "url": "https://www.adobe.com/products/xd.html",
+      "status": "failed",
+      "timestamp": "2026-06-26T10:22:10.717568"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+.env
+*.log
+new_account.txt
+registration_url.txt
+registration_params.json
+*.png
+!thumbnail.png
+debug_*.png
+.DS_Store

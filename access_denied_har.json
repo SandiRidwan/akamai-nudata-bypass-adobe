@@ -1,0 +1,136 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Playwright Capture",
+      "version": "1.0"
+    },
+    "entries": [
+      {
+        "request": {
+          "method": "GET",
+          "url": "https://auth.services.adobe.com/",
+          "headers": [
+            {
+              "name": "accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "upgrade-insecure-requests",
+              "value": "1"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            }
+          ],
+          "postData": null
+        },
+        "response": {
+          "status": 403,
+          "statusText": "",
+          "headers": [
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a11911a73f91119a-MLE"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "report-uri https://auth.services.adobe.com/signin/v1/audit/csp-violation-report; report-to https://auth.services.adobe.com/signin/v1/audit/csp-violation-report"
+            },
+            {
+              "name": "content-type",
+              "value": "application/xml"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 26 Jun 2026 03:19:11 GMT"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer-when-downgrade"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfCacheStatus;desc=\"DYNAMIC\"\ncfEdge;dur=62,cfOrigin;dur=677"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "via",
+              "value": "1.1 98668a17fb98afaedf2be4666cac7b04.cloudfront.net (CloudFront)"
+            },
+            {
+              "name": "x-amz-bucket-region",
+              "value": "us-east-1"
+            },
+            {
+              "name": "x-amz-cf-id",
+              "value": "AYAQOzrjduD8TPYjvVvxEXZPCpELHlXZiPBcTzWKzPH1-NrUT3bKRQ=="
+            },
+            {
+              "name": "x-amz-cf-pop",
+              "value": "BOM78-P11"
+            },
+            {
+              "name": "x-cache",
+              "value": "Error from cloudfront"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "content": {
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>"
+          }
+        },
+        "startedDateTime": 1782443950.549738,
+        "time": 0,
+        "timings": {}
+      }
+    ]
+  }
+}

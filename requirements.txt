@@ -1,0 +1,19 @@
+# HTTP Client dengan TLS fingerprint spoofing (WAJIB untuk Akamai)
+curl_cffi>=0.5.0
+
+# TLS-Chameleon - Auto-adaptasi untuk Akamai dengan 45+ profile browser
+tls-chameleon>=2.1.0
+
+# Playwright - Untuk simulasi browser (NuData handling)
+playwright>=1.40.0
+
+# Playwright Stealth - Patch agar Playwright tidak terdeteksi
+playwright-stealth>=1.0.0
+
+# Untuk parsing HTML
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Utility
+python-dotenv>=1.0.0
+fake-useragent>=1.4.0
